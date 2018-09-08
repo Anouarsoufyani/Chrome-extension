@@ -1,0 +1,90 @@
+.links{
+  display: none;
+  width: auto;
+  position: fixed;
+  max-width: 50%;
+  min-width: 15%;
+  max-height: 75%;
+  bottom: 7.5%;
+  left: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: rgba(0,0,0,0.7);
+}
+
+.superlink{
+  display: flex;
+  color: red;
+  width: 90%;
+  margin-left: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.supprime{
+  font-size: 30px;
+  padding: 0;
+  background: transparent;
+}
+
+.supprime:hover{
+  background: transparent;
+}
+
+#name_link{
+  width: 100%;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#url_link{
+  width: 100%;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.content_links{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow:hidden;
+}
+
+.open_links_container{
+  display: flex;
+  width: 33%;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+#jdesign{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.superjdesign{
+  justify-content: center;
+  align-items: center;
+}
+
+.jdesign{
+  justify-content: center;
+  align-items: center;
+}
+
+.visible{
+  display: flex;
+}

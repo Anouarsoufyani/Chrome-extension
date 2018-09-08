@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>New Tab</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/main_page/main.css">
+  <link rel="stylesheet" href="../styles/main_page/links.css">
+  <link rel="stylesheet" href="../styles/main_page/focus.css">
+  <link rel="stylesheet" href="../styles/main_page/todo.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+</head>
+
+<body id="background">
+
+  <section id="top-container">
+
+    <div id="test" class="top_left_container">
+      <i style="margin-left:10px;" class="fas fa-search"></i><input id="search_bar" type="text">
+    </div>
+
+    <div class="top_right_container">
+        <button id="openTodo">Todo</button>
+    </div>
+
+  </section>
+
+  <div class="links">
+    <div class="jdesign">
+
+    </div>
+    <div class="content_links">
+
+    </div>
+    <input autocomplete="off" id="name_link" type="text" placeholder="Name" maxlength="30">
+    <input autocomplete="off" id="url_link" type="text" placeholder="URL">
+  </div>
+
+  <div class="todo">
+    <input autocomplete="off" id="todo_input" type="text" placeholder="New Todo" maxlength="30">
+    <div class="content_todo">
+
+    </div>
+  </div>
+
+
+  <section id="container">
+
+    <div class="horloge">
+      <h1 id="clock"></h1>
+    </div>
+
+    <div class="hello_container">
+      <h1 id="say_hello"></h1>
+    </div>
+    <div id="focus_question">
+      <h2>What is your main focus ?</h2>
+    </div>
+
+  </section>
+
+  <section id="bottom-container">
+    <!-- DIV BUTTON SETTINGS -->
+    <div id="button_settings_container">
+      <button id="openSettings"><a id="settings_href" href="settings.html" ><i class="fas fa-cog fa-lg"></i></a></button>
+    </div>
+    <!-- DIV FOCUS BAR -->
+    <div id="focus">
+      <input id="focus_input" type="text" maxlength="40" autocomplete="off">
+      <div id="focus_container">
+
+    </div>
+  </div>
+
+  <div class="open_links_container">
+      <button class="open_links" onclick="">Links</button>
+  </div>
+  </section>
+
+  <script src="../scripts/displays.js" charset="utf-8"></script>
+  <script src="../scripts/focus.js" charset="utf-8"></script>
+  <script src="../scripts/todo.js" charset="utf-8"></script>
+  <script src="../scripts/account_localStorage.js" charset="utf-8"></script>
+  <script src="../scripts/links.js" charset="utf-8"></script>
+  <script src="../scripts/search.js" charset="utf-8"></script>
+  <script src="../scripts/clock.js" charset="utf-8"></script>
+  <script src="../scripts/settings.js" charset="utf-8"></script>
+</body>
+
+</html>

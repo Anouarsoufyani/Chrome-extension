@@ -1,0 +1,145 @@
+body{
+  height: 100vh;
+  overflow: hidden;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.content{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+label{
+  font-size: 16px;
+}
+
+hr{
+  width: 65%;
+}
+
+button {
+  transition: 500ms;
+  padding: 10px 20px 10px 20px;
+  border-radius: 30px;
+  margin: 10px;
+  text-align: center;
+  border: none;
+  background: black;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background: white;
+}
+
+#top-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 10%;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid;
+}
+
+.top_containers{
+  width: 33%;
+  display: flex;
+  align-items: center;
+}
+
+.top_left_container{
+  font-size: 16px;
+}
+
+.top_middle_container{
+  justify-content: center;
+}
+
+.top_right_container{
+  justify-content: flex-end;
+}
+
+input[type=text] {
+  outline: none;
+  border: 1px solid;
+  padding: 5px;
+  height: 25px;
+  font-size: 15px;
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#search_bar {
+  border-radius: 0;
+  margin: 10px;
+  font-weight: bold;
+  border: 0;
+  border-bottom: 2px solid white;
+  background: transparent;
+}
+
+
+#container{
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+#bottom_container{
+  display: flex;
+  border-top: 2px solid;
+  width: 100%;
+  height: 10%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#erase_data{
+  font-size: 16px;
+}
+
+#settings{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: lightgrey;
+    border-radius: 10px;
+}
+
+#color_list{
+    text-decoration: none !important;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    transition: 500ms;
+    margin: 10px;
+    text-align: center;
+    border: none;
+    background: black;
+    cursor: pointer;
+    outline: none;
+}

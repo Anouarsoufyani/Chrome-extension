@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Teta Tab",
+  "description": "Teta Tab offers a better experience of the new tab: New Tab customizable with search bar, todo list, clock and favorites websites.",
+  "version": "1.0",
+  "permissions": [
+    "<all_urls>"
+  ],
+  "browser_action": {
+    "default_icon": "img/icons/icon.png"
+  },
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
+  "icons": {
+    "128" : "img/icons/icon.png"
+  },
+  "chrome_url_overrides" : {
+    "newtab": "web pages/index.html"
+  }
+}

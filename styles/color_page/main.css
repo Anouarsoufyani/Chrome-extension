@@ -1,0 +1,23 @@
+body{
+  height: 100%;
+  font-size: 20px;
+}
+
+#content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 33%;
+}
+
+#color_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+hr{
+  background: black;
+  width: 100%;
+}

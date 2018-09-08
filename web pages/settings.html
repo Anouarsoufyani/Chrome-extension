@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>New Tab</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="../styles/settings_page/main.css">
+    <link rel="stylesheet" href="../styles/settings_page/modal.css">
+    <link rel="stylesheet" href="../styles/settings_page/links.css">
+    <link rel="stylesheet" href="../styles/settings_page/focus.css">
+    <link rel="stylesheet" href="../styles/settings_page/todo.css">
+  </head>
+  <body>
+
+<div class="content">
+  <section id="top-container">
+
+    <div class="top_left_container top_containers">
+      <i style="margin-left:10px;" class="fas fa-search"></i><input id="search_bar" type="text">
+    </div>
+
+    <div class="top_middle_container top_containers">
+      <div class="hello_container">
+        <h1 id="say_hello"></h1>
+      </div>
+    </div>
+
+    <div class="top_right_container top_containers">
+      <div class="horloge">
+        <h3 id="clock"></h3>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="container">
+    <form id="settings" class="modal-content" enctype="multipart/form-data">
+        <label><b>Change username : </b></label>
+        <input autocomplete="off" id="changeUsernameInput" type="text" placeholder="Username">
+        <hr>
+        <label><b>Change background image : </b></label>
+        <input autocomplete="off" id="changeBackgroundImageInput" type="text" placeholder="Image URL">
+        <button id="defaultImage" type="button" name="button">Default Image</button>
+        <hr>
+        <label><b>Change font color : </b></label>
+        <span>Ex : orange, darkOrange, red, darkRed ...</span>
+        <span><i class="fas fa-exclamation-circle"></i> if you type a wrong color, this will be black.</span>
+        <input autocomplete="off" id="changeFontColorInput" type="text" placeholder="Font color">
+        <a id="color_list" href="color_list.html">Colors list</a>
+
+    </form>
+  </section>
+  <section id="bottom_container">
+    <i class="fas fa-exclamation-circle fa-3x"></i>
+      <button id="erase_data">Erase data</button>
+    <i class="fas fa-exclamation-circle fa-3x"></i>
+  </section>
+
+</div>
+
+
+
+
+    <script src="../scripts/erase_data.js" charset="utf-8"></script>
+    <script src="../scripts/focus.js" charset="utf-8"></script>
+    <script src="../scripts/todo.js" charset="utf-8"></script>
+    <script src="../scripts/account_localStorage.js" charset="utf-8"></script>
+    <script src="../scripts/links.js" charset="utf-8"></script>
+    <script src="../scripts/search.js" charset="utf-8"></script>
+    <script src="../scripts/clock.js" charset="utf-8"></script>
+    <script src="../scripts/settings.js" charset="utf-8"></script>
+  </body>
+</html>
